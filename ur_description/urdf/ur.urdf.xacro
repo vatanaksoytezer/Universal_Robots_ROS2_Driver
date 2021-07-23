@@ -32,4 +32,8 @@
      safety_k_position="$(arg safety_k_position)"
      use_fake_hardware="$(arg use_fake_hardware)"
      fake_sensor_commands="$(arg fake_sensor_commands)" />
+
+  <!-- Ignition -->
+  <xacro:include filename="ur_ignition_plugins.xacro" />
+
 </robot>
